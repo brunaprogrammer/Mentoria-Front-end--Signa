@@ -423,7 +423,7 @@ input[type="search"], input [type="text"]{
 		flex-direction: column;
 	}
 
-	.bottom-header-content ul, #btn, #search{
+	.bottom-header-content ul{
 		display: none;
 	}
 
@@ -479,6 +479,27 @@ input[type="search"], input [type="text"]{
 }
 
 @media (max-width: 584px){
+	#search {
+		width: 10rem;
+	}
+
+	#box_icone_busca{
+		width: 30px;
+		height: 30px;
+		padding: 10px;
+		position: relative;
+		left: -39px;
+		top: 1px;
+	  }
+	  #icone_busca {
+		color:#b97f7c;
+		cursor: pointer;
+	  }
+
+	#btn{
+		display: none;
+	}
+
 	.bolos-imgs img {
 		object-fit: cover;
 		width: 80%;
