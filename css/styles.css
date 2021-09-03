@@ -429,6 +429,10 @@ input[type="search"], input [type="text"]{
 		display: none;
 	}
 
+	.bolos-imgs{
+		padding: 2rem 0;
+	}
+
 	.bolo-img{
 		flex-direction: column-reverse;
 		align-items: center;
