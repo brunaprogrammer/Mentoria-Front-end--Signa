@@ -137,6 +137,10 @@ input[type="search"], input [type="text"]{
 	font-size: 1rem;
 }
 
+#box_icone_busca{
+	display: none;
+}
+
 .owl-nav{
 	display: none;
 }
