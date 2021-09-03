@@ -448,6 +448,8 @@ input[type="search"], input [type="text"]{
 
 	.docinhos{
 		flex-wrap: wrap;
+		padding: 1rem 0;
+		justify-content: center;
 	}
 
 	.contato{
@@ -461,5 +463,18 @@ input[type="search"], input [type="text"]{
 	.form{
 		width: 250px;
 	}
+}
 
+@media (max-width: 500px){
+	.bolos-imgs img {
+		width: 15rem;
+	}
+
+	.bolo1, .bolo2, .bolo-3 {
+		width: 19.1rem;
+	}
+
+	.bolos-imgs-1, .bolos-imgs-2, .bolos-imgs-3{
+		width: 19.1rem;
+	}
 }
