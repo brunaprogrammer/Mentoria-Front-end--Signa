@@ -291,11 +291,10 @@ input[type="search"], input [type="text"]{
 }
 
 .docinhos{
-	max-width: 80%;
 	margin: 0 auto;
 	display: flex;
-	padding: 3rem;
-
+	justify-content: center;
+	flex-wrap: wrap;
 }	
 
 .docinhos img{
@@ -447,13 +446,28 @@ input[type="search"], input [type="text"]{
 	}
 
 	.docinhos{
-		flex-wrap: wrap;
+		
 		padding: 1rem 0;
 		justify-content: center;
 	}
 
-	.contato{
+	.pedidos, .somos, .atendimento, .ganhe {
+		border-right: none;
+		font-size: 13px;
+		line-height: 24px;
+		margin-top: 20px;
+		margin: 55px 0 36px 0;
+		padding-right: 70px;
+	}
+
+	.contato {
 		flex-wrap: wrap;
+		border-top: none;
+		border-bottom: none;
+		display: flex;
+		justify-content: center;
+		color: #4E4E4E;
+		font-family: 'Roboto', sans-serif;
 	}
 
 	.ganhe{
@@ -465,7 +479,7 @@ input[type="search"], input [type="text"]{
 	}
 }
 
-@media (max-width: 500px){
+@media (max-width: 584px){
 	.bolos-imgs img {
 		object-fit: cover;
 		width: 80%;
@@ -481,4 +495,26 @@ input[type="search"], input [type="text"]{
 		width: 19.1rem;
 		height: 42rem;
 	}
+
+	.contato{
+		flex-direction: column;
+	}
+
+	.pedidos, .somos, .atendimento, .ganhe {
+		border-right: none;
+		font-size: 13px;
+		line-height: 24px;
+		margin-top: 20px;
+		margin: 55px 0 0 0;
+		padding-right: 70px;
+	}
+
+	.form > input {
+		width: 9rem;
+	}
+
+	.form > button {
+		width: 80px;
+	}
+
 }
