@@ -137,19 +137,6 @@ input[type="search"], input [type="text"]{
 	font-size: 1rem;
 }
 
-#box_icone_busca{
-	width: 30px;
-	height: 30px;
-	padding: 10px;
-	position: relative;
-	left: 249px;
-    top: -27px
-  }
-
-  .fa-search{
-	  display: none;
-  }
-
 .owl-nav{
 	display: none;
 }
@@ -436,13 +423,8 @@ input[type="search"], input [type="text"]{
 		flex-direction: column;
 	}
 
-	.bottom-header-content ul, #btn{
+	.bottom-header-content ul, #btn, #search{
 		display: none;
-	}
-
-	.fa-search{
-		display: block;
-		color: #b97f7c;
 	}
 
 	.bolos-imgs{
