@@ -467,12 +467,13 @@ input[type="search"], input [type="text"]{
 
 @media (max-width: 500px){
 	.bolos-imgs img {
-		width: 17rem;
-		
+		object-fit: cover;
+		width: 80%;
+		height: 475px;
 	}
 
 	.bolo1, .bolo2, .bolo-3 {
-		width: 19.1rem;
+		width: 18.1rem;
 		height: 30rem;
 	}
 
