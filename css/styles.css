@@ -468,13 +468,16 @@ input[type="search"], input [type="text"]{
 @media (max-width: 500px){
 	.bolos-imgs img {
 		width: 15rem;
+		
 	}
 
 	.bolo1, .bolo2, .bolo-3 {
 		width: 19.1rem;
+		height: 30rem;
 	}
 
 	.bolos-imgs-1, .bolos-imgs-2, .bolos-imgs-3{
 		width: 19.1rem;
+		height: 42rem;
 	}
 }
