@@ -182,6 +182,7 @@ h1{
 	text-align: right;
 	padding: .3rem;
 	border-bottom: 1px solid #f9e4e4;
+	cursor: pointer;
 }
 
 .menu-open-btn{
