@@ -30,9 +30,47 @@
 					<i class="fas fa-bars"></i>
 				</div>
 
-				<ul>
+				<ul class="absoluto">
 					<li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>       TELEFONES: (018)3302-1839</a></li>
-					<li><a href=""><i class="fas fa-shopping-cart" aria-hidden="true"></i>  Carrinho</a></li>
+					<li class="carrinho"><a href="#"><i class="fas fa-shopping-cart" aria-hidden="true"></i>  Carrinho</a></li>
+					<span class="carrinho__cont">2</span>
+					<div class="menu-open">
+						<div class="car-x">
+							<i id="fechar-carrinho" class="far fa-window-close"></i>
+							<h3>Carrinho</h3>
+						</div>
+						<div class="conteudo">
+							<div class="conteudo-img">
+								<img src="images/lindobolo.jpg" alt="">
+							</div>
+							<div class="conteudo-ps">
+								<p>Bolo clássico flores</p>
+                    			<p>R$ 1.399,99</p>
+								<p>Quantidade <input class="diminuir" type="text" value="1"><button>OK</button></p>
+							</div>
+						</div>
+						<div class="conteudo-detalhes">
+							<p>Editar produto | Excluir Item | Detalhes</p>
+						</div>
+
+						<div class="conteudo">
+							<div class="conteudo-img">
+								<img src="images/docinho5.png" alt="">
+							</div>
+							<div class="conteudo-ps">
+								<p>Docinho clássico nozes</p>
+                    			<p>R$ 29,99</p>
+								<p>Quantidade <input class="diminuir" type="text" value="1"><button>OK</button></p>
+							</div>
+						</div>
+						<div class="conteudo-detalhes-2">
+							<p>Editar produto | Excluir Item | Detalhes</p>
+						</div>
+						<div class="menu-open-btn">
+							<button class="fechar-pedido">Fechar Pedido</button>
+						</div>
+						
+					</div>
 				</ul>
 
 				<ul>
@@ -281,6 +319,7 @@
 
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<script src="lib/owlCarousel/dist/owl.carousel.min.js"></script>
+	<script src="js/script.js"></script>
 	<script>
 	$('.owl-carousel').owlCarousel({
 		loop:true,
