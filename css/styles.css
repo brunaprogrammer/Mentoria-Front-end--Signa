@@ -128,6 +128,10 @@ h1{
 	padding: .3rem;
 }
 
+#fechar-carrinho{
+	padding: .3rem;
+}
+
 .conteudo{
 	display: flex;
 	justify-content: flex-start;
@@ -169,6 +173,7 @@ h1{
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     font-size: .9rem;
+	margin-left: 5px;
 }
 
 .conteudo-detalhes, .conteudo-detalhes-2{
@@ -239,21 +244,11 @@ input[type="search"], input [type="text"]{
 	padding-left: .6rem;
 }
 
-#btn{
-	width: 10rem;
-	height: 2.5rem;
-	border-radius: .3rem;
-	background-color: #b97f7c;
-	border: .3rem double #4E4E4E;
+#icone_busca{
+	color: #b97f7c;
+	position: relative;
+	right: 33px;
 	cursor: pointer;
-	color: #fdf6f6;
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1rem;
-}
-
-#box_icone_busca{
-	display: none;
 }
 
 .owl-nav{
@@ -600,23 +595,6 @@ input[type="search"], input [type="text"]{
 @media (max-width: 584px){
 	#search {
 		width: 10rem;
-	}
-
-	#box_icone_busca{
-		width: 30px;
-		height: 30px;
-		padding: 10px;
-		position: relative;
-		left: -39px;
-		top: 1px;
-	  }
-	  #icone_busca {
-		color:#b97f7c;
-		cursor: pointer;
-	  }
-
-	#btn{
-		display: none;
 	}
 
 	.bolos-imgs img {
